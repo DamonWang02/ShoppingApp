@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Shopping</string>
+    <string name="title_home">购物车</string>
+    <string name="title_dashboard">商品</string>
+    <string name="title_notifications">我的商城</string>
+    <string name="server_url">http://192.168.0.10:8080/</string>
+    <string name="error_missing_h5_pay_url">Missing URL to load. Please configure in PayDemoActivity.h5Pay()</string>
+    <string name="confirm">Confirm</string>
+    <string name="error">Error</string>
+    <string name="share">ShareSDK for Shopping</string>
+    <string name="pay_failed">Payment failed:</string>
+    <string name="pay_success">Payment success:</string>
+    <string name="auth_failed">Authentication failed:</string>
+    <string name="auth_success">Authentication success:</string>
+</resources>

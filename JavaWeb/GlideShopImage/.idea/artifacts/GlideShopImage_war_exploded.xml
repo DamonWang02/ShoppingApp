@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="GlideShopImage:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/GlideShopImage_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="GlideShopImage/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="GlideShopImage" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

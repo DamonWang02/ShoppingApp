@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:id="@+id/shopCarItemMain">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/shopCarItem_image"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/shopCarItem_name"
+            android:text="Nike AiR Force One"
+            android:layout_toRightOf="@id/shopCarItem_image"
+            android:textSize="20dp"
+            android:paddingLeft="15dp" />
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/shopCarItemTwo"
+            android:paddingTop="30dp"
+            android:layout_below="@id/shopCarItem_name"
+            android:layout_toRightOf="@id/shopCarItem_image">
+
+            <TextView
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:id="@+id/shopCarItem_price"
+            android:textSize="20dp"
+            android:text="30.7"
+            android:paddingLeft="15dp"
+            android:textColor="#FF4500"/>
+
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/prevent"/>
+            <TextView
+                android:layout_width="25dp"
+                android:layout_height="60dp"
+                android:text="1"
+                android:textSize="20dp"/>
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/add"/>
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</LinearLayout>
