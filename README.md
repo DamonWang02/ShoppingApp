@@ -37,13 +37,14 @@
 * RecycleView
 * BottomNavigationView
 * OkHttp
-* JSON数据解析![Screenshot_20210625-105318](https://user-images.githubusercontent.com/64305078/123415281-9d690800-d5e7-11eb-9423-221c434774b3.png)
+* JSON数据解析
 * RatingBar
 
 
 ---
 #### 演示图： 
 
+![Screenshot_20210625-105318](https://user-images.githubusercontent.com/64305078/123415281-9d690800-d5e7-11eb-9423-221c434774b3.png)
 
 ![Screenshot_20210625-105323](https://user-images.githubusercontent.com/64305078/123415656-2aac5c80-d5e8-11eb-8760-0c61023bb2a1.png)
 
